@@ -10,7 +10,7 @@ class sum {
         int a = sc.nextInt();
         System.out.println("Enter the second number: ");
         int b = sc.nextInt();
-
-        System.out.println("sum " + (a+b));
+int sum=a+b;
+        System.out.println("sum="+sum);
     }
 }

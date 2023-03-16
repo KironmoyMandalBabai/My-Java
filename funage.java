@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class funage {
+    //Write a function that takes in age as input and returns if that person is eligible to vote or not. A person of age > 18 is eligible to vote.
+    public static  boolean checkfrvote(int age) {
+        if (18<=age) { 
+            return true;
+        } 
+        else {
+            return false;
+        }
+        
+    }
+    public static void main(String[]arge){
+          try (Scanner sc = new Scanner(System.in)) {
+            int age = sc.nextInt();
+            System.out.println(checkfrvote(age));
+        }
+        
+    }
+}

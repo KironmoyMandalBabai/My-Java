@@ -7,16 +7,17 @@ public class avarage {
         }
         static Scanner sc = new Scanner(System.in);
         public static void main(String args[]){
-            Scanner sc =new Scanner(System.in);
-            System.out.println("enter 1st num");
-            int a=sc.nextInt();
-            System.out.println("enter 2nd num"); 
-            int b=sc.nextInt();
-            System.out.println("enter 3rd num");
-            int c=sc.nextInt();
+            try (Scanner sc = new Scanner(System.in)) {
+                System.out.println("enter 1st num");
+                int a=sc.nextInt();
+                System.out.println("enter 2nd num"); 
+                int b=sc.nextInt();
+                System.out.println("enter 3rd num");
+                int c=sc.nextInt();
 
-            int ava =kiron(a,b,c);
-            System.out.println("avrage is "+9ava);
+                int ava =kiron(a,b,c);
+                System.out.println("avrage is "+ava);
+            }
     
     
 
